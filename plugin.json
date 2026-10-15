@@ -1,11 +1,11 @@
 {
   "version": "1.0.0",
-  "name": "YouTube Audio",
-  "author": "Kingkor Roy Tirtho",
-  "description": "YouTube audio source plugin for Spotube",
+  "name": "YouTube Audio Fix",
+  "author": "Ognistylis",
+  "description": "Fixed YouTube audio source plugin for Spotube with ISRC fallback, work the best with new pipe",
   "entryPoint": "YouTubeAudioSourcePlugin",
   "apis": ["localstorage"],
   "abilities": ["audio-source"],
-  "repository": "https://github.com/KRTirtho/spotube-plugin-youtube-audio",
+  "repository": "https://github.com/Ognistylis/spotube-plugin-youtube-audio-fix",
   "pluginApiVersion": "2.0.0"
 }
