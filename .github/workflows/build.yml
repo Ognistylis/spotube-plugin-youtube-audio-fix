@@ -31,7 +31,7 @@ jobs:
           flutter-version: 3.35.2
 
       - name: Install dependencies
-        run: dart pub global activate hetu_script_dev_tools
+        run: dart pub global activate hetu_script_dev_tools 0.1.0+2
       
       - name: Run build
         run: make
