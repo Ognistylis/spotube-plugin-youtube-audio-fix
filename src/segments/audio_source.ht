@@ -41,7 +41,7 @@ class AudioSourceEndpoint {
     final artists = track["artists"].map((a)=> a["name"]).join(", ")
     final hasISRC = track["isrc"] != null && track["isrc"].isNotEmpty;
     return yt.search(
-      hasISRC ? track["isrc"] : "${track["name"]} ${artists}"
+      hasISRC ? track["isrc"] : "${track["artists"]} ${name}"
     ).then((res){
       if(res.isEmpty && hasISRC) {
         return yt.search(
