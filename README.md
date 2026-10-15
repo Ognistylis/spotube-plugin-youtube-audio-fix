@@ -1,2 +1,2 @@
 ## Spotube Metadata Plugin Template
-Naprawione zostało że niektóre piosenki się nie odtwarzały w silniku yutube NewPipe
+Fixed, some songs not playing in the yutube NewPipe engine now it works
